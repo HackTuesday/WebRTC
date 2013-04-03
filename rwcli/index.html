@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WebRTC</title>
+  </head>
+  <body>
+    <div>
+      <button type="button" id="host">host</button>
+    </div>
+
+    <div>
+      <label>
+        <span>route</span>
+        <input type="text" id="route" style="width: 25em;" />
+      </label>
+      <button type="button" id="client">connect</button>
+    </div>
+
+
+    <ul id="chat"></ul>
+
+    <form id="sendtext">
+      <label><span>&gt;</span> <input type="text" id="send" />
+    </form>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script src="js/wrtcp.js"></script>
+    <script src="js/rwcli.js"></script>
+  </body>
+</html>
+
